@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+    </style>
+
+    <style name="AppBaseTheme.White" parent="Theme.AppCompat.Light">
+    </style>
+
+    <style name="AppBaseTheme.Black" parent="Theme.AppCompat">
+    </style>
+
+    <style name="Theme.MessageBox" parent="Theme.AppCompat.Light">
+    </style>
+</resources>

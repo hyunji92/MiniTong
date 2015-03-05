@@ -1,7 +1,10 @@
 package sample.info.minitong;
 
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -10,6 +13,12 @@ import com.astuetz.PagerSlidingTabStrip;
 
 
 public class MainActivity extends FragmentActivity {
+    private static final String[] CONTENT = new String[]{"메세지함", "거래내역" ," 미확인 번호 "};
+    private static final int[] ICONS = new int[]{
+            R.drawable.b_tab_icon_1,
+            R.drawable.b_tab_icon_2,
+            R.drawable.b_tab_icon_3
+    };
 
     private PagerSlidingTabStrip mPagerTaps;
     private ViewPager mViewPager;
@@ -21,6 +30,10 @@ public class MainActivity extends FragmentActivity {
 
         mPagerTaps = (PagerSlidingTabStrip) this.findViewById(R.id.taps);
         mViewPager = (ViewPager) this.findViewById(R.id.pager);
+
+        PagerAdapter  mPagerAdapter = new PagerAdapter(getSupportFragmentManager());
+        mViewPager.setAdapter(mPagerAdapter);
+        mPagerTaps.setViewPager(mViewPager);
 
     }
 
@@ -46,4 +59,33 @@ public class MainActivity extends FragmentActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+    public class PagerAdapter extends FragmentPagerAdapter  implements PagerSlidingTabStrip.IconTabProvider{
+
+
+        public PagerAdapter(FragmentManager fm) {
+            super(fm);
+        }
+
+        @Override
+        public Fragment getItem(int arg0) {
+            return MainFragment.create(CONTENT[arg0], arg0);
+        }
+
+        @Override
+        public int getCount() {
+            return CONTENT.length;
+        }
+
+        @Override
+        public CharSequence getPageTitle(int position) {
+            return CONTENT[position % CONTENT.length].toUpperCase();
+        }
+
+        @Override
+        public int getPageIconResId(int index) {
+            return ICONS[index];
+        }
+    }
+
 }

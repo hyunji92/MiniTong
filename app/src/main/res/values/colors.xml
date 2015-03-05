@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="gray">#ff575A69</color>
+    <color name="invisible">#00000000</color>
+    <color name="spc_installment">#3aafff</color>
+    <color name="spc_price">#737373</color>
+    <color name="spc_price_incoming">#3aafff</color>
+    <color name="spc_price_outcoming">#ff4800</color>
+
+    <color name="spc_app_name">#404040</color>
+    <color name="spc_sub00_text">#8A8A8A</color>
+    <color name="spc_sub01_text">#BEBEBE</color>
+    <color name="spc_sub02_text">#DCDCDC</color>
+    <color name="bg_color_line01">#BEBEBE</color>
+    <color name="bg_color_line02">#DCDCDC</color>
+    <color name="text_color_blue">#3AAFFF</color>
+    <color name="bg_color_blue">#3AAFFF</color>
+    <color name="textcolor_tab_normal">#FFa0a0a0</color>
+    <color name="separate_line_color">#DCDCDC</color>
+    <color name="password_area_background">#f6f6f6</color>
+    <color name="list_item_setting_textcolor_index">#FF404040</color>
+
+
+    <!-- Black theme -->
+    <color name="b_spc_app_name">#CCCCCC</color>
+    <color name="b_spc_sub00_text">#808080</color>
+    <color name="b_spc_sub01_text">#8E8E8E</color>
+    <color name="b_spc_sub02_text">#191919</color>
+    <color name="b_bg_color_line01">#555555</color>
+    <color name="b_bg_color_line02">#191919</color>
+    <color name="b_text_color_blue">#3297DB</color>
+    <color name="b_bg_color_blue">#3297DB</color>
+    <color name="b_textcolor_tab_normal">#FF505050</color>
+    <color name="b_separate_line_color">#191919</color>
+    <color name="b_password_area_background">#FF505050</color>
+    <color name="b_keypad_normal">#CCCCCC</color>
+    <color name="b_keypad_pressed">#212121</color>
+    <color name="b_indicator_bg">#FF4f4f4f</color>
+    <color name="b_list_item_setting_textcolor_index">#CCCCCC</color>
+    <color name="b_bubble_sent_text_normal">#FFFFFF</color>
+    <color name="b_bubble_sent_text_press">#FFFFFF</color>
+    <color name="b_bubble_text_normal">#CCCCCC</color>
+    <color name="b_bubble_text_press">#FF434343</color>
+    <color name="b_home_list_item_normal_bg">#000000</color>
+    <color name="b_home_list_item_press_bg">#8AB5BE</color>
+    <color name="b_gradation_start">#1C2125</color>
+    <color name="b_gradation_end">#384C5C</color>
+    <color name="b_textcolor_button_normal">#808080</color>
+    <color name="b_textcolor_button_press">#212121</color>
+    <color name="b_textcolor_button_dim">#191919</color>
+    <color name="b_unknown_text_normal">#FFFFFF</color>
+    <color name="b_unknown_bg_press">#FF4e515b</color>
+    <color name="b_unknown_text_press">#FFFFFF</color>
+
+
+    <color name="layout_btn_bg_text_p">#08A6FF</color>
+    <color name="layout_list_bg_p">#08A6FF</color>
+    <!-- <color name="layout_list_bg_p">#03C5FF</color> -->
+
+    <!-- 20130409 msju keypad textColor -->
+    <color name="keypad_normal">#FF404040</color>
+    <color name="keypad_pressed">#FFFFFFFF</color>
+
+
+    <!-- 20130411 msju setting list item -->
+    <color name="list_item_setting_textcolor_subtitle">#FF9a9a9a</color>
+    <color name="list_item_setting_textcolor_subtitle_black">#FF9a9a9a</color>
+    <color name="textcolor_highlight">#ff00aaff</color>
+    <color name="textcolor_tab_selected">#FF3aafff</color>
+    <color name="textcolor_tab_selected_black">#FF3aafff</color>
+    <color name="textcolor_button_normal">#FF787878</color>
+    <color name="textcolor_button_press">#FFFFFFFF</color>
+    <color name="textcolor_button_dim">#FFdcdcdc</color>
+    <color name="textcolor_payment_unread">#FF404040</color>
+    <color name="textcolor_payment_title_read">#FF737373</color>
+    <color name="textcolor_payment_subtitle_read">#FF8a8a8a</color>
+
+    <!-- 20130603 msju tab badge textcolor -->
+
+    <color name="popup_text_color_incoming">#FF0C8BFF</color>
+    <color name="popup_text_color_outcoming">#FFFF340C</color>
+    <color name="initial_view_text_color">#FF787878</color>
+    <color name="bubble_text_normal">#FF434343</color>
+    <color name="bubble_text_press">#FFFFFFFF</color>
+    <color name="send_btn_text_normal">#FF434343</color>
+    <color name="send_btn_text_press">#FFFFFFFF</color>
+    <color name="unknown_bg_normal">#FFFFFFFF</color>
+    <color name="unknown_bg_press">#FF4e515b</color>
+    <color name="unknown_text_normal">#FF8a8a8a</color>
+    <color name="unknown_text_press">#FFFFFFFF</color>
+
+
+    <!-- 20130710 honey home list item & popup item select -->
+    <color name="home_list_item_normal_bg">#FFFFFFFF</color>
+    <color name="home_list_item_press_bg">#4E515B</color>
+    <color name="home_list_item_tong_normal_bg">#e8faff</color>
+    <color name="bg_list_item_checkable_press">#FFF6F6F6</color>
+
+    <!-- 29139712 msju textColors of bottom action button -->
+    <color name="textcolor_bottom_action_button_normal">#FF787878</color>
+    <color name="textcolor_bottom_action_button_dim">#FF9A9A9A</color>
+
+    <!-- 20130726 honey video bar bg color -->
+    <color name="video_bar_bg_press">#4e515b</color>
+
+    <color name="update_popup_close">#ff7a7a7a</color>
+
+    <!--  20131104 msju conversation background color -->
+    <color name="bg_conversation_baby_pink">#FFEDAAB2</color>
+    <color name="bg_conversation_dark_yellow">#FFE7DE6E</color>
+    <color name="bg_conversation_dark_blue">#FF6884B3</color>
+    <color name="bg_conversation_gray">#FFEEEEEE</color>
+    <color name="bg_conversation_emerald">#FF13B0A4</color>
+    <color name="bg_conversation_dark_gray">#FF9E9E9E</color>
+    <color name="bg_conversation_green">#FF9BBF5F</color>
+    <color name="bg_conversation_pink">#FFE47885</color>
+    <color name="bg_conversation_light_blue">#FFBED1DD</color>
+    <color name="bg_conversation_orange">#FFF7906D</color>
+    <color name="bg_conversation_cobalt">#FFA5CDC0</color>
+
+    <!-- 20131119 msju toast popup color -->
+    <color name="textcolor_toast_popup_primary">#FF404040</color>
+    <color name="textcolor_toast_popup_sub">#FF898989</color>
+    <color name="linecolor_toast_popup_primary">#FF3AAFFF</color>
+
+    <!-- 20131213 msju common color preset -->
+    <color name="textcolor_main">#FF404040</color>
+    <color name="bgcolor_main">#FF404040</color>
+
+    <color name="textcolor_sub00">#FF8A8A8A</color>
+
+    <color name="textcolor_sub01">#FFBEBEBE</color>
+    <color name="bgcolor_line01">#FFBEBEBE</color>
+
+    <color name="textcolor_sub02">#FFDCDCDC</color>
+    <color name="bgcolor_line02">#FFDCDCDC</color>
+
+    <color name="textcolor_w">#FFFFFFFF</color>
+    <color name="bgcolor_w">#FFFFFFFF</color>
+
+    <color name="textcolor_blue">#FF3AAFFF</color>
+    <color name="bgcolor_blue">#FF3AAFFF</color>
+
+    <color name="textcolor_red">#FFFF4800</color>
+
+    <color name="textcolor_darkred">#FFC10A0A</color>
+
+    <color name="textcolor_safe">#FF4CB91C</color>
+
+    <color name="textcolor_warning">#FFFF8400</color>
+
+    <color name="bgcolor_press">#FF4E515B</color>
+
+    <color name="bgcolor_black">#FF000000</color>
+
+    <drawable name="class_zero_background">#7f040000</drawable>
+</resources>

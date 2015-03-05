@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ngmTextView">
+        <attr name="smallTextSize" format="dimension"/>
+        <attr name="normalTextsize" format="dimension"/>
+        <attr name="largeTextSize" format="dimension"/>
+        <attr name="hugeTextSize" format="dimension"/>
+        <attr name="breakSingleLine" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="CheckableLinearLayout">
+        <attr name="checkable" format="integer"/>
+    </declare-styleable>
+
+    <!-- View styles -->
+    <attr name="themeName" format="reference"/>
+
+    <attr name="pageBackground" format="reference"/>
+    <attr name="separatorBackground" format="reference"/>
+    <attr name="separatorBoldBackground" format="reference"/>
+    <attr name="separatorLightBackground" format="reference"/>
+    <attr name="separatorHighlightBackground" format="reference"/>
+
+    <attr name="listSelectorBackground" format="reference"/>
+    <attr name="listDividerColor" format="reference"/>
+    <attr name="listViewStyle" format="reference"/>
+    <attr name="listItemMainTextColor" format="reference"/>
+    <attr name="listItemSub00TextColor" format="reference"/>
+    <attr name="listItemSub01TextColor" format="reference"/>
+    <attr name="listItemContactSearchBg" format="reference"/>
+
+    <attr name="listConversationStyle" format="reference"/>
+    <attr name="bubbleTextColorRcv" format="reference"/>
+    <attr name="bubbleTextColorSent" format="reference"/>
+
+    <attr name="settingIndicatorStyle" format="reference"/>
+    <attr name="settingMainTextColor" format="reference"/>
+    <attr name="settingSubTextColor" format="reference"/>
+    <attr name="settingOptionTextColor" format="reference"/>
+
+    <attr name="selectorTabTextColor" format="reference"/>
+    <attr name="selectorUnknownBg" format="reference"/>
+    <attr name="selectorUnknownText" format="reference"/>
+    <attr name="selectorUnknownTextBg" format="reference"/>
+
+    <attr name="conversationMainTextColor" format="reference"/>
+    <attr name="textColorHighlight" format="reference"/>
+
+
+    <attr name="selectorBtnToggle" format="reference"/>
+    <attr name="selectorBtnAttachAlbum" format="reference"/>
+    <attr name="selectorBtnAttachCamera" format="reference"/>
+    <attr name="selectorBtnAttachVideo" format="reference"/>
+    <attr name="selectorBtnAttachRayMenuControl" format="reference"/>
+    <attr name="selectorBtnAttachRayMenuWrite" format="reference"/>
+    <attr name="selectorActionItemArrowOut" format="reference"/>
+    <attr name="selectorArrowIcon" format="reference"/>
+    <attr name="selectorBtnAttachIcon" format="reference"/>
+    <attr name="selectorBtnCheck" format="reference"/>
+    <attr name="selectorBtnCloseAttach" format="reference"/>
+    <attr name="selectorBtnContactDone" format="reference"/>
+    <attr name="selectorBtnPopupSettingIcon" format="reference"/>
+    <attr name="selectorBtnRefresh" format="reference"/>
+    <attr name="selectorBtnSettingLed" format="reference"/>
+    <attr name="selectorBtnSettingSound" format="reference"/>
+    <attr name="selectorBtnSettingUpdate" format="reference"/>
+    <attr name="selectorBtnSettingVibrate" format="reference"/>
+    <attr name="selectorBtnTempIcon" format="reference"/>
+    <attr name="selectorCheckboxCircle1" format="reference"/>
+    <attr name="selectorCheckboxCircle2" format="reference"/>
+    <attr name="selectorCheckboxCircle2Bg" format="reference"/>
+    <attr name="selectorTermsAgreeBtnOff" format="reference"/>
+    <attr name="selectorTermsAgreeBtnCheck" format="reference"/>
+    <attr name="spcTabBtnArrowLeft" format="reference"/>
+    <attr name="spcTabBtnArrowRight" format="reference"/>
+    <attr name="tabIcon1" format="reference"/>
+    <attr name="tabIcon2" format="reference"/>
+    <attr name="tabIcon3" format="reference"/>
+    <attr name="contractIcon" format="reference"/>
+    <attr name="frameMmsImg" format="reference"/>
+    <attr name="selectorActionItemCall" format="reference"/>
+    <attr name="spcIconPassword" format="reference"/>
+    <attr name="iconSearch" format="reference"/>
+    <attr name="iconPoliceCi" format="reference"/>
+    <attr name="iconOther" format="reference"/>
+    <attr name="listIconRe" format="reference"/>
+    <attr name="selectorBtnMmsDeleteIcon" format="reference"/>
+    <attr name="msgContactImg" format="reference"/>
+    <attr name="popupIconPrice" format="reference"/>
+    <attr name="popupIconDate" format="reference"/>
+    <attr name="popupIconLoca" format="reference"/>
+    <attr name="spcIconRightArrow" format="reference"/>
+    <attr name="settingDropArrowDown" format="reference"/>
+    <attr name="selectorIconKeypadDelete" format="reference"/>
+    <attr name="spcUnconfirmedIconEmpty" format="reference"/>
+    <attr name="spcUnconfirmedIcon01" format="reference"/>
+    <attr name="spcUnconfirmedIcon02" format="reference"/>
+    <attr name="spcMsgMoreIconLink" format="reference"/>
+    <attr name="updateListMarker" format="reference"/>
+    <attr name="settingVBtnNew" format="reference"/>
+    <attr name="selectorBtnCommon" format="reference"/>
+    <attr name="selectorBtnDetail" format="reference"/>
+    <attr name="selectorBtnModifyPayment" format="reference"/>
+    <attr name="selectorBtnSendContact" format="reference"/>
+    <attr name="contractPopupBg" format="reference"/>
+    <attr name="contractPopupBtnRD" format="reference"/>
+    <attr name="selectorContractBtn" format="reference"/>
+    <attr name="selectorBtnContractDialog" format="reference"/>
+    <attr name="selectorBtnContractDialogSecond" format="reference"/>
+    <attr name="listIconBadgeF" format="reference"/>
+    <attr name="selectorBadgeBg" format="reference"/>
+    <attr name="selectorBtnAddNum" format="reference"/>
+    <attr name="selectorBtnContact" format="reference"/>
+    <attr name="selectorMsgIconRecDelete" format="reference"/>
+    <attr name="selectorSpcBtnBubble" format="reference"/>
+    <attr name="selectorSpcBtnSendBubble" format="reference"/>
+    <attr name="selectorSpcBtnSendTempBubble" format="reference"/>
+    <attr name="popupBg" format="reference"/>
+    <attr name="selectorSpcPopupBtnBottomLeft" format="reference"/>
+    <attr name="selectorSpcPopupBtnBottomMiddle" format="reference"/>
+    <attr name="selectorSpcPopupBtnBottomRight" format="reference"/>
+    <attr name="dialogHorizontalProgress" format="reference"/>
+    <attr name="selectorBtnPopupSetting" format="reference"/>
+    <attr name="selectorBtnKeypadLeft" format="reference"/>
+    <attr name="selectorBtnKeypadRight" format="reference"/>
+    <attr name="selectorBtnSmsCatchClose" format="reference"/>
+    <attr name="selectorInputFieldPw" format="reference"/>
+    <attr name="titleBg" format="reference"/>
+    <attr name="textInput" format="reference"/>
+    <attr name="subtitleBg" format="reference"/>
+    <attr name="videoBtnBg" format="reference"/>
+    <attr name="selectorBtnSaveImage" format="reference"/>
+    <attr name="videoHorizontalProgress" format="reference"/>
+    <attr name="selectorVideoBtnBarBg" format="reference"/>
+    <attr name="selectorBtnFullDetailWeb" format="reference"/>
+
+    <attr name="mainPageTabBackground" format="reference"/>
+    <attr name="pageBottomBackground" format="reference"/>
+
+    <attr name="separateLineColor" format="reference"/>
+    <attr name="selectorBtnVideoAdd" format="reference"/>
+
+    <attr name="textColorTitle" format="reference"/>
+    <attr name="listTextColorPrice" format="reference"/>
+    <attr name="settingImgPopupOn" format="reference"/>
+    <attr name="settingImgPopupOff" format="reference"/>
+    <attr name="settingImgStatusOn" format="reference"/>
+    <attr name="settingImgStatusOff" format="reference"/>
+    <attr name="passwordAreaBackground" format="reference"/>
+    <attr name="spcImageTransaction01" format="reference"/>
+    <attr name="spcImageTransaction02" format="reference"/>
+
+    <attr name="actionContainerBg" format="reference"/>
+    <attr name="checkableActivityBottomButton" format="reference"/>
+    <attr name="popupSettingTextColor" format="reference"/>
+    <attr name="contractImg01" format="reference"/>
+    <attr name="contractText01" format="reference"/>
+    <attr name="updateIcon" format="reference"/>
+
+</resources>

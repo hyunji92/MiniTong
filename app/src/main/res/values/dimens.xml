@@ -1,5 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Default screen margins, per the Android Design guidelines. -->
-    <dimen name="activity_horizontal_margin">16dp</dimen>
-    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="ibn_push_popup_padding">50dp</dimen>
+    <dimen name="actionbar_height">62dp</dimen>
+    <dimen name="checkbox_width">30dp</dimen>
+    <dimen name="checkbox_height">30dp</dimen>
+    <dimen name="font_scale_sample_small">8dp</dimen>
+    <dimen name="font_scale_sample_normal">11dp</dimen>
+    <dimen name="font_scale_sample_large">16dp</dimen>
+    <dimen name="font_scale_sample_huge">22dp</dimen>
+    <dimen name="bottom_button_height">60dp</dimen>
+    <dimen name="initial_text_padding">8dp</dimen>
+    <dimen name="contact_padding">10dp</dimen>
+    <dimen name="contact_margin">7dp</dimen>
+    <dimen name="contact_drawble_padding">25dp</dimen>
+    <dimen name="contact_btn_height">20dp</dimen>
+    <dimen name="contact_btn_text_size">13dp</dimen>
+
+    <!-- 20130708 msju tab indicator height -->
+    <dimen name="tab_indicator_height">80dp</dimen>
+    <!-- 73dp in GUI guide.. -->
+
+    <dimen name="attach_item_width">65dp</dimen>
+    <dimen name="attach_item_margin">12dp</dimen>
+    <dimen name="video_margin">20dp</dimen>
+
+    <dimen name="send_bubble_padding">15.5dp</dimen>
+    <dimen name="send_bubble_padding_right">25.5dp</dimen>
+
 </resources>

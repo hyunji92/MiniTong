@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="datetime_within_min">1분 이내</string>
+    <string name="datetime_in_seconds">%d 초 전</string>
+    <string name="datetime_in_minutes">%d 분 전</string>
+    <string name="datetime_in_hours">%d 시간 전</string>
+</resources>

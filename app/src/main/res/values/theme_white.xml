@@ -1,0 +1,687 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme.White" parent="@style/AppBaseTheme.White">
+        <item name="themeName">@string/theme_white</item>
+
+        <item name="pageBackground">@style/page_background_white</item>
+        <item name="pageBottomBackground">@style/page_bottom_background_white</item>
+
+        <item name="separatorBackground">@style/background_color1_white</item>
+        <item name="separatorBoldBackground">@style/background_color2_white</item>
+        <item name="separatorLightBackground">@style/background_color3_white</item>
+        <item name="separatorHighlightBackground">@style/background_color4_white</item>
+
+        <item name="listViewStyle">@style/listview_white</item>
+        <item name="listItemMainTextColor">@style/list_item_name_text_color_white</item>
+        <item name="listItemSub00TextColor">@style/list_item_sub00_text_color_white</item>
+        <item name="listItemSub01TextColor">@style/list_item_sub01_text_color_white</item>
+        <item name="listItemContactSearchBg">@style/list_item_contact_search_bg_white</item>
+        <item name="listSelectorBackground">@style/list_selector_background_white</item>
+        <item name="listConversationStyle">@style/list_conversation_white</item>
+
+        <item name="bubbleTextColorRcv">@style/bubble_text_color_rcv_white</item>
+        <item name="bubbleTextColorSent">@style/bubble_text_color_sent_white</item>
+
+        <item name="settingIndicatorStyle">@style/setting_indicator_style_white</item>
+        <item name="settingMainTextColor">@style/list_item_setting_textcolor_index_white</item>
+        <item name="settingSubTextColor">@style/list_item_setting_textcolor_subtitle_white</item>
+        <item name="settingOptionTextColor">@style/list_item_setting_textcolor_subtitle_white</item>
+
+        <item name="selectorTabTextColor">@style/selector_tab_text_color_white</item>
+        <item name="selectorUnknownBg">@style/selector_unknown_bg_white</item>
+        <item name="selectorUnknownText">@style/selector_unknown_text_white</item>
+        <item name="selectorUnknownTextBg">@style/selector_unknown_text_bg_white</item>
+
+        <item name="conversationMainTextColor">@style/conversation_main_text_color_white</item>
+        <item name="textColorHighlight">@style/text_color_highlight_white</item>
+
+        <item name="selectorBtnToggle">@style/selector_btn_toggle_white</item>
+        <item name="selectorBtnAttachAlbum">@style/selector_btn_atach_album_white</item>
+        <item name="selectorBtnAttachCamera">@style/selector_btn_atach_camera_white</item>
+        <item name="selectorBtnAttachVideo">@style/selector_btn_atach_video_white</item>
+        <item name="selectorBtnAttachRayMenuControl">@style/selector_btn_atach_raymenu_control_white</item>
+        <item name="selectorBtnAttachRayMenuWrite">@style/selector_btn_atach_raymenu_write_white</item>
+        <item name="selectorActionItemArrowOut">@style/selector_action_item_arrow_out_white</item>
+        <item name="selectorArrowIcon">@style/selector_arrow_icon_white</item>
+        <item name="selectorBtnAttachIcon">@style/selector_btn_attach_icon_white</item>
+        <item name="selectorBtnCheck">@style/selector_btn_check_white</item>
+        <item name="selectorBtnCloseAttach">@style/selector_btn_close_attach_white</item>
+        <item name="selectorBtnContactDone">@style/selector_btn_contact_done_white</item>
+        <item name="selectorBtnPopupSettingIcon">@style/selector_btn_popup_setting_icon_white</item>
+        <item name="selectorBtnRefresh">@style/selector_btn_refresh_white</item>
+        <item name="selectorBtnSettingLed">@style/selector_btn_setting_led_white</item>
+        <item name="selectorBtnSettingSound">@style/selector_btn_setting_sound_white</item>
+        <item name="selectorBtnSettingUpdate">@style/selector_btn_setting_update_white</item>
+        <item name="selectorBtnSettingVibrate">@style/selector_btn_setting_vibrate_white</item>
+        <item name="selectorBtnTempIcon">@style/selector_btn_temp_icon_white</item>
+        <item name="selectorCheckboxCircle1">@style/selector_checkbox_circle1_white</item>
+        <item name="selectorCheckboxCircle2">@style/selector_checkbox_circle2_white</item>
+        <item name="selectorCheckboxCircle2Bg">@style/selector_checkbox_circle2_bg_white</item>
+        <item name="selectorTermsAgreeBtnOff">@style/selector_terms_agree_btn_off_white</item>
+        <item name="selectorTermsAgreeBtnCheck">@style/selector_terms_agree_btn_check_white</item>
+        <item name="spcTabBtnArrowLeft">@style/spc_tab_btn_arrow_left_white</item>
+        <item name="spcTabBtnArrowRight">@style/spc_tab_btn_arrow_right_white</item>
+        <item name="tabIcon1">@style/tab_icon1_white</item>
+        <item name="tabIcon2">@style/tab_icon2_white</item>
+        <item name="tabIcon3">@style/tab_icon3_white</item>
+        <item name="contractIcon">@style/contract_icon_white</item>
+        <item name="frameMmsImg">@style/frame_mms_img_white</item>
+        <item name="selectorActionItemCall">@style/selector_action_item_call_white</item>
+        <item name="spcIconPassword">@style/spc_icon_password_white</item>
+        <item name="iconSearch">@style/icon_search_white</item>
+        <item name="iconPoliceCi">@style/icon_police_ci_white</item>
+        <item name="iconOther">@style/icon_other_white</item>
+        <item name="listIconRe">@style/list_icon_re_white</item>
+        <item name="selectorBtnMmsDeleteIcon">@style/selector_btn_mms_delete_icon_white</item>
+        <item name="msgContactImg">@style/msg_contact_img_white</item>
+        <item name="popupIconPrice">@style/popup_icon_price_white</item>
+        <item name="popupIconDate">@style/popup_icon_date_white</item>
+        <item name="popupIconLoca">@style/popup_icon_loca_white</item>
+        <item name="spcIconRightArrow">@style/spc_icon_right_arrow_white</item>
+        <item name="settingDropArrowDown">@style/setting_drop_arrow_down_white</item>
+        <item name="selectorIconKeypadDelete">@style/selector_icon_keypad_delete_white</item>
+        <item name="spcUnconfirmedIconEmpty">@style/spc_unconfirmed_icon_empty_white</item>
+        <item name="spcUnconfirmedIcon01">@style/spc_unconfirmed_icon_01_white</item>
+        <item name="spcUnconfirmedIcon02">@style/spc_unconfirmed_icon_02_white</item>
+        <item name="spcMsgMoreIconLink">@style/spc_msg_more_icon_link_white</item>
+        <item name="updateListMarker">@style/update_list_marker_white</item>
+        <item name="settingVBtnNew">@style/setting_v_btn_new_white</item>
+        <item name="selectorBtnCommon">@style/selector_btn_common_white</item>
+        <item name="selectorBtnDetail">@style/selector_btn_detail_white</item>
+        <item name="selectorBtnModifyPayment">@style/selector_btn_modify_payment_white</item>
+        <item name="selectorBtnSendContact">@style/selector_btn_send_contact_white</item>
+        <item name="contractPopupBg">@style/contract_popup_bg_white</item>
+        <item name="contractPopupBtnRD">@style/contract_popup_btn_r_d_white</item>
+        <item name="selectorContractBtn">@style/selector_contract_btn_white</item>
+        <item name="selectorBtnContractDialog">@style/selector_btn_contract_dialog_white</item>
+        <item name="selectorBtnContractDialogSecond">@style/selector_btn_contract_dialog_second_white</item>
+        <item name="listIconBadgeF">@style/list_icon_badge_f_white</item>
+        <item name="selectorBadgeBg">@style/selector_badge_bg_white</item>
+        <item name="selectorBtnAddNum">@style/selector_btn_add_num_white</item>
+        <item name="selectorBtnContact">@style/selector_btn_contact_white</item>
+        <item name="selectorMsgIconRecDelete">@style/selector_msg_icon_rec_delete_white</item>
+        <item name="selectorSpcBtnBubble">@style/selector_spc_btn_bubble_white</item>
+        <item name="selectorSpcBtnSendBubble">@style/selector_spc_btn_send_bubble_white</item>
+        <item name="selectorSpcBtnSendTempBubble">@style/selector_spc_btn_send_temp_bubble_white</item>
+        <item name="popupBg">@style/popup_bg_white</item>
+        <item name="selectorSpcPopupBtnBottomLeft">@style/selector_spc_popup_btn_bottom_left_white</item>
+        <item name="selectorSpcPopupBtnBottomMiddle">@style/selector_spc_popup_btn_bottom_middle_white</item>
+        <item name="selectorSpcPopupBtnBottomRight">@style/selector_spc_popup_btn_bottom_right_white</item>
+        <item name="dialogHorizontalProgress">@style/dialog_horizontal_progress_white</item>
+        <item name="selectorBtnPopupSetting">@style/selector_btn_popup_setting_white</item>
+        <item name="selectorBtnKeypadLeft">@style/selector_btn_keypad_left_white</item>
+        <item name="selectorBtnKeypadRight">@style/selector_btn_keypad_right_white</item>
+        <item name="selectorBtnSmsCatchClose">@style/selector_btn_sms_catch_close_white</item>
+        <item name="selectorInputFieldPw">@style/selector_input_field_pw_white</item>
+        <item name="titleBg">@style/title_bg_white</item>
+        <item name="textInput">@style/text_input_white</item>
+        <item name="subtitleBg">@style/subtitle_bg_white</item>
+        <item name="videoBtnBg">@style/video_btn_bg_white</item>
+        <item name="selectorBtnSaveImage">@style/selector_btn_save_image_white</item>
+        <item name="videoHorizontalProgress">@style/video_horizontal_progress_white</item>
+        <item name="selectorVideoBtnBarBg">@style/selector_video_btn_bar_bg_white</item>
+        <item name="selectorBtnFullDetailWeb">@style/selector_btn_full_detail_web_white</item>
+        <item name="mainPageTabBackground">@style/main_page_tab_background_white</item>
+        <item name="separateLineColor">@style/separate_line_color_white</item>
+        <item name="selectorBtnVideoAdd">@style/selector_btn_video_add_white</item>
+        <item name="textColorTitle">@style/text_color_title_white</item>
+        <item name="listTextColorPrice">@style/list_text_color_price_white</item>
+        <item name="settingImgPopupOn">@style/setting_img_popup_on_white</item>
+        <item name="settingImgPopupOff">@style/setting_img_popup_off_white</item>
+        <item name="settingImgStatusOn">@style/setting_img_status_on_white</item>
+        <item name="settingImgStatusOff">@style/setting_img_status_off_white</item>
+        <item name="passwordAreaBackground">@style/password_area_background_white</item>
+        <item name="spcImageTransaction01">@style/spc_image_transaction_01_white</item>
+        <item name="spcImageTransaction02">@style/spc_image_transaction_02_white</item>
+
+        <item name="actionContainerBg">@style/action_container_bg_white</item>
+        <item name="checkableActivityBottomButton">@style/checkable_activity_bottom_text_view_white</item>
+        <item name="popupSettingTextColor">@style/popup_setting_text_color_white</item>
+        <item name="contractImg01">@style/contract_img_01_white</item>
+        <item name="contractText01">@style/contract_text_01_white</item>
+        <item name="updateIcon">@style/update_icon_white</item>
+
+    </style>
+
+    <!-- =============================================================== -->
+    <!-- White styles                                                    -->
+    <!-- =============================================================== -->
+    <style name="page_background_white">
+        <item name="android:background">@drawable/activity_background</item>
+    </style>
+
+    <style name="page_bottom_background_white">
+        <item name="android:background">#FFF</item>
+    </style>
+
+
+    <style name="main_page_tab_background_white">
+        <item name="android:background">@drawable/main_page_tab_background</item>
+    </style>
+
+    <style name="background_color1_white">
+        <item name="android:background">#D0D0D0</item>
+    </style>
+
+    <style name="background_color2_white">
+        <item name="android:background">@color/bg_color_line02</item>
+    </style>
+
+    <style name="background_color3_white">
+        <item name="android:background">#e4e4e4</item>
+    </style>
+
+    <style name="background_color4_white">
+        <item name="android:background">#3aafff</item>
+    </style>
+
+    <style name="listview_white">
+        <item name="android:background">@color/invisible</item>
+        <item name="android:divider">@color/bg_color_line01</item>
+        <item name="android:cacheColorHint">#fff</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:dividerHeight">1px</item>
+    </style>
+
+    <style name="list_item_contact_search_bg_white">
+        <item name="android:background">@drawable/selector_list_bg</item>
+    </style>
+
+    <style name="list_selector_background_white">
+        <item name="android:background">@drawable/selector_list_bg</item>
+    </style>
+
+    <style name="list_divider_color_white">
+        <item name="android:divider">#dbdbdb</item>
+    </style>
+
+    <style name="list_item_name_text_color_white">
+        <item name="android:textColor">@drawable/selector_list_text_app_name</item>
+    </style>
+
+    <style name="list_item_sub00_text_color_white">
+        <item name="android:textColor">@drawable/selector_list_text_sub00</item>
+    </style>
+
+    <style name="list_item_sub01_text_color_white">
+        <item name="android:textColor">@drawable/selector_list_text_sub01</item>
+    </style>
+
+    <style name="list_conversation_white">
+        <item name="android:background">@color/invisible</item>
+        <item name="android:divider">@color/invisible</item>
+        <item name="android:cacheColorHint">#fff</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:dividerHeight">0px</item>
+    </style>
+
+    <style name="bubble_text_color_rcv_white">
+        <item name="android:textColor">@drawable/selector_bubble_text</item>
+    </style>
+
+    <style name="bubble_text_color_sent_white">
+        <item name="android:textColor">@drawable/selector_bubble_sent_text</item>
+    </style>
+
+    <style name="setting_indicator_style_white">
+        <item name="android:background">@drawable/subtitle_bg</item>
+        <item name="android:textColor">@color/list_item_setting_textcolor_index</item>
+    </style>
+
+    <style name="selector_tab_text_color_white">
+        <item name="android:textColor">@drawable/selector_tab_text</item>
+    </style>
+
+    <style name="selector_unknown_bg_white">
+        <item name="android:background">@drawable/selector_list_bg</item>
+    </style>
+
+    <style name="selector_unknown_text_white">
+        <item name="android:textColor">@drawable/selector_unknown_text</item>
+    </style>
+
+    <style name="selector_unknown_text_bg_white">
+        <item name="android:textColor">@drawable/selector_unknown_text</item>
+        <item name="android:background">@drawable/selector_list_bg</item>
+    </style>
+
+    <style name="list_item_setting_textcolor_subtitle_white">
+        <item name="android:textColor">@drawable/selector_list_text_sub00</item>
+    </style>
+
+    <style name="list_item_setting_textcolor_index_white">
+        <item name="android:textColor">@drawable/selector_list_text_app_name</item>
+    </style>
+
+    <style name="conversation_main_text_color_white">
+        <item name="android:textColor">#404040</item>
+    </style>
+
+    <style name="text_color_highlight_white">
+        <item name="android:textColor">@color/textcolor_highlight</item>
+    </style>
+
+
+    <style name="selector_btn_toggle_white">
+        <item name="android:background">@drawable/selector_btn_toggle</item>
+    </style>
+
+    <style name="selector_btn_atach_album_white">
+        <item name="android:src">@drawable/selector_btn_attach_album</item>
+    </style>
+
+    <style name="selector_btn_atach_camera_white">
+        <item name="android:src">@drawable/selector_btn_attach_camera</item>
+    </style>
+
+    <style name="selector_btn_atach_video_white">
+        <item name="android:src">@drawable/selector_btn_attach_video_record</item>
+    </style>
+
+    <style name="selector_btn_atach_raymenu_control_white">
+        <item name="android:background">@drawable/selector_btn_raymenu_control</item>
+    </style>
+
+    <style name="selector_btn_atach_raymenu_write_white">
+        <item name="android:background">@drawable/selector_btn_raymenu_write</item>
+    </style>
+
+    <style name="selector_action_item_arrow_out_white">
+        <item name="android:background">@drawable/selector_action_item_arrow_out</item>
+    </style>
+
+    <style name="selector_arrow_icon_white">
+        <item name="android:background">@drawable/selector_arrow_icon</item>
+    </style>
+
+    <style name="selector_btn_attach_icon_white">
+        <item name="android:background">@drawable/selector_btn_attach_icon</item>
+    </style>
+
+    <style name="selector_btn_check_white">
+        <item name="android:background">@drawable/selector_btn_check</item>
+    </style>
+
+    <style name="selector_btn_close_attach_white">
+        <item name="android:src">@drawable/selector_btn_close_attach</item>
+    </style>
+
+    <style name="selector_btn_contact_done_white">
+        <item name="android:background">@drawable/selector_btn_contact_done</item>
+    </style>
+
+    <style name="selector_btn_popup_setting_icon_white">
+        <item name="android:src">@drawable/selector_btn_popup_setting_icon</item>
+    </style>
+
+    <style name="selector_btn_refresh_white">
+        <item name="android:background">@drawable/selector_btn_refresh</item>
+    </style>
+
+    <style name="selector_btn_setting_led_white">
+        <item name="android:src">@drawable/selector_btn_setting_led</item>
+    </style>
+
+    <style name="selector_btn_setting_sound_white">
+        <item name="android:src">@drawable/selector_btn_setting_sound</item>
+    </style>
+
+    <style name="selector_btn_setting_update_white">
+        <item name="android:src">@drawable/selector_btn_setting_update</item>
+    </style>
+
+    <style name="selector_btn_setting_vibrate_white">
+        <item name="android:src">@drawable/selector_btn_setting_vibrate</item>
+    </style>
+
+    <style name="selector_btn_temp_icon_white">
+        <item name="android:src">@drawable/selector_btn_temp_icon</item>
+    </style>
+
+    <style name="selector_checkbox_circle1_white">
+        <item name="android:button">@drawable/selector_checkbox_circle_1</item>
+    </style>
+
+    <style name="selector_checkbox_circle2_white">
+        <item name="android:button">@drawable/selector_checkbox_circle_2</item>
+    </style>
+
+    <style name="selector_checkbox_circle2_bg_white">
+        <item name="android:background">@drawable/selector_checkbox_circle_2</item>
+    </style>
+
+    <style name="selector_terms_agree_btn_off_white">
+        <item name="android:background">@drawable/selector_terms_agree_btn_off</item>
+    </style>
+
+    <style name="selector_terms_agree_btn_check_white">
+        <item name="android:background">@drawable/selector_terms_agree_btncheck</item>
+    </style>
+
+    <style name="spc_tab_btn_arrow_left_white">
+        <item name="android:background">@drawable/spc_tab_btn_arrow_left</item>
+    </style>
+
+    <style name="spc_tab_btn_arrow_right_white">
+        <item name="android:background">@drawable/spc_tab_btn_arrow_right</item>
+    </style>
+
+    <style name="tab_icon1_white">
+        <item name="android:src">@drawable/tab_icon_1</item>
+    </style>
+
+    <style name="tab_icon2_white">
+        <item name="android:src">@drawable/tab_icon_2</item>
+    </style>
+
+    <style name="tab_icon3_white">
+        <item name="android:src">@drawable/tab_icon_3</item>
+    </style>
+
+    <style name="contract_icon_white">
+        <item name="android:background">@drawable/contract_icon</item>
+    </style>
+
+    <style name="frame_mms_img_white">
+        <item name="android:background">@drawable/frame_mms_img</item>
+    </style>
+
+    <style name="selector_action_item_call_white">
+        <item name="android:background">@drawable/selector_action_item_call</item>
+    </style>
+
+    <style name="spc_icon_password_white">
+        <item name="android:background">@drawable/spc_icon_password</item>
+    </style>
+
+    <style name="icon_search_white">
+        <item name="android:drawableLeft">@drawable/icon_search</item>
+        <item name="android:textColor">@color/spc_app_name</item>
+        <item name="android:textColorHint">@color/spc_sub01_text</item>
+    </style>
+
+    <style name="icon_police_ci_white">
+        <item name="android:background">@drawable/icon_police_ci</item>
+    </style>
+
+    <style name="icon_other_white">
+        <item name="android:drawable">@drawable/icon_other</item>
+    </style>
+
+    <style name="list_icon_re_white">
+        <item name="android:background">@drawable/list_icon_re</item>
+    </style>
+
+    <style name="selector_btn_mms_delete_icon_white">
+        <item name="android:background">@drawable/selector_btn_mms_delete_icon</item>
+    </style>
+
+    <style name="msg_contact_img_white">
+        <item name="android:src">@drawable/msg_contact_img</item>
+    </style>
+
+    <style name="popup_icon_price_white">
+        <item name="android:background">@drawable/popup_icon_price</item>
+    </style>
+
+    <style name="popup_icon_date_white">
+        <item name="android:background">@drawable/popup_icon_date</item>
+    </style>
+
+    <style name="popup_icon_loca_white">
+        <item name="android:background">@drawable/popup_icon_loca</item>
+    </style>
+
+    <style name="spc_icon_right_arrow_white">
+        <item name="android:background">@drawable/spc_icon_right_arrow</item>
+    </style>
+
+    <style name="setting_drop_arrow_down_white">
+        <item name="android:src">@drawable/setting_drop_arrow_down</item>
+    </style>
+
+    <style name="selector_icon_keypad_delete_white">
+        <item name="android:background">@drawable/selector_icon_keypad_delete</item>
+    </style>
+
+    <style name="spc_unconfirmed_icon_empty_white">
+        <item name="android:background">@drawable/spc_unconfirmed_icon_empty</item>
+    </style>
+
+    <style name="spc_unconfirmed_icon_01_white">
+        <item name="android:background">@drawable/spc_unconfirmed_icon_01</item>
+    </style>
+
+    <style name="spc_unconfirmed_icon_02_white">
+        <item name="android:background">@drawable/spc_unconfirmed_icon_02</item>
+    </style>
+
+    <style name="spc_msg_more_icon_link_white">
+        <item name="android:background">@drawable/spc_msg_more_icon_link</item>
+    </style>
+
+    <style name="update_list_marker_white">
+        <item name="android:src">@drawable/update_list_marker</item>
+    </style>
+
+    <style name="setting_v_btn_new_white">
+        <item name="android:background">@drawable/setting_v_btn_new</item>
+    </style>
+
+    <style name="selector_btn_common_white">
+        <item name="android:background">@drawable/selector_btn_common</item>
+    </style>
+
+    <style name="selector_btn_detail_white">
+        <item name="android:background">@drawable/selector_btn_detail</item>
+    </style>
+
+    <style name="selector_btn_modify_payment_white">
+        <item name="android:background">@drawable/selector_btn_modify_payment</item>
+    </style>
+
+    <style name="selector_btn_send_contact_white">
+        <item name="android:background">@drawable/selector_btn_send_contact</item>
+    </style>
+
+    <style name="contract_popup_bg_white">
+        <item name="android:background">@drawable/contract_popup_bg</item>
+    </style>
+
+    <style name="contract_popup_btn_r_d_white">
+        <item name="android:background">@drawable/contract_popup_btn_r_d</item>
+    </style>
+
+    <style name="selector_contract_btn_white">
+        <item name="android:background">@drawable/selector_contract_btn</item>
+    </style>
+
+    <style name="selector_btn_contract_dialog_white">
+        <item name="android:background">@drawable/selector_btn_contract_dialog</item>
+    </style>
+
+    <style name="selector_btn_contract_dialog_second_white">
+        <item name="android:background">@drawable/selector_btn_contract_dialog_second</item>
+    </style>
+
+    <style name="list_icon_badge_f_white">
+        <item name="android:background">@drawable/list_icon_badge_f</item>
+    </style>
+
+    <style name="selector_badge_bg_white">
+        <item name="android:background">@drawable/selector_badge_bg</item>
+    </style>
+
+    <style name="selector_btn_add_num_white">
+        <item name="android:background">@drawable/selector_btn_add_num</item>
+    </style>
+
+    <style name="selector_btn_contact_white">
+        <item name="android:background">@drawable/selector_btn_contact</item>
+    </style>
+
+    <style name="selector_msg_icon_rec_delete_white">
+        <item name="android:background">@drawable/selector_msg_icon_rec_delete</item>
+    </style>
+
+    <style name="selector_spc_btn_bubble_white">
+        <item name="android:background">@drawable/selector_spc_btn_bubble</item>
+    </style>
+
+    <style name="selector_spc_btn_send_bubble_white">
+        <item name="android:background">@drawable/selector_spc_btn_send_bubble</item>
+    </style>
+
+    <style name="selector_spc_btn_send_temp_bubble_white">
+        <item name="android:background">@drawable/selector_spc_btn_send_temp_bubble</item>
+    </style>
+
+    <style name="popup_bg_white">
+        <item name="android:background">@drawable/popup_bg</item>
+    </style>
+
+    <style name="selector_spc_popup_btn_bottom_left_white">
+        <item name="android:background">@drawable/selector_spc_popup_btn_bottom_left</item>
+        <item name="android:textColor">@drawable/selector_layout_btn_text</item>
+    </style>
+
+    <style name="selector_spc_popup_btn_bottom_middle_white">
+        <item name="android:background">@drawable/selector_spc_popup_btn_bottom_middle</item>
+        <item name="android:textColor">@drawable/selector_layout_btn_text</item>
+    </style>
+
+    <style name="selector_spc_popup_btn_bottom_right_white">
+        <item name="android:background">@drawable/selector_spc_popup_btn_bottom_right</item>
+        <item name="android:textColor">@drawable/selector_layout_btn_text</item>
+    </style>
+
+    <style name="dialog_horizontal_progress_white">
+        <item name="android:background">@drawable/dialog_horizontal_progress</item>
+    </style>
+
+    <style name="selector_btn_popup_setting_white">
+        <item name="android:background">@drawable/selector_btn_popup_setting</item>
+    </style>
+
+    <style name="selector_btn_keypad_left_white">
+        <item name="android:background">@drawable/selector_btn_keypad_left</item>
+        <item name="android:textColor">@drawable/selector_textcolor_keypad</item>
+    </style>
+
+    <style name="selector_btn_keypad_right_white">
+        <item name="android:background">@drawable/selector_btn_keypad_right</item>
+        <item name="android:textColor">@drawable/selector_textcolor_keypad</item>
+    </style>
+
+    <style name="selector_btn_sms_catch_close_white">
+        <item name="android:background">@drawable/selector_btn_sms_catch_close</item>
+    </style>
+
+    <style name="selector_input_field_pw_white">
+        <item name="android:background">@drawable/selector_input_field_pw</item>
+    </style>
+
+    <style name="title_bg_white">
+        <item name="android:background">@drawable/title_bg</item>
+    </style>
+
+    <style name="text_input_white">
+        <item name="android:background">@drawable/text_input</item>
+        <item name="android:textColor">@color/spc_app_name</item>
+        <item name="android:textColorHint">@color/spc_sub01_text</item>
+    </style>
+
+    <style name="subtitle_bg_white">
+        <item name="android:background">@drawable/subtitle_bg</item>
+    </style>
+
+    <style name="video_btn_bg_white">
+        <item name="android:background">@drawable/video_btn_bg</item>
+    </style>
+
+    <style name="selector_btn_save_image_white">
+        <item name="android:background">@drawable/selector_btn_save_image</item>
+    </style>
+
+    <style name="video_horizontal_progress_white">
+        <item name="android:background">@drawable/video_horizontal_progress</item>
+    </style>
+
+    <style name="selector_video_btn_bar_bg_white">
+        <item name="android:background">@drawable/selector_video_btn_bar_bg</item>
+    </style>
+
+    <style name="selector_btn_full_detail_web_white">
+        <item name="android:background">@drawable/selector_btn_full_detail_web</item>
+    </style>
+
+    <style name="separate_line_color_white">
+        <item name="android:background">@color/bg_color_line01</item>
+    </style>
+
+    <style name="selector_btn_video_add_white">
+        <item name="android:background">@drawable/video_add</item>
+    </style>
+
+    <style name="text_color_title_white">
+        <item name="android:textColor">@color/spc_app_name</item>
+    </style>
+
+    <style name="list_text_color_price_white">
+        <item name="android:textColor">@color/spc_price</item>
+    </style>
+
+    <style name="setting_img_popup_on_white">
+        <item name="android:src">@drawable/setting_img_btn_popup_on</item>
+    </style>
+
+    <style name="setting_img_popup_off_white">
+        <item name="android:src">@drawable/setting_img_btn_popup_off</item>
+    </style>
+
+    <style name="setting_img_status_on_white">
+        <item name="android:src">@drawable/setting_img_btn_status_on</item>
+    </style>
+
+    <style name="setting_img_status_off_white">
+        <item name="android:src">@drawable/setting_img_btn_status_off</item>
+    </style>
+
+    <style name="password_area_background_white">
+        <item name="android:background">@color/password_area_background</item>
+    </style>
+
+    <style name="spc_image_transaction_01_white">
+        <item name="android:background">@drawable/spc_image_transaction_01</item>
+    </style>
+
+    <style name="spc_image_transaction_02_white">
+        <item name="android:background">@drawable/spc_image_transaction_02</item>
+    </style>
+
+    <style name="action_container_bg_white">
+        <item name="android:background">@drawable/bg_bottom_action_container</item>
+    </style>
+
+    <style name="checkable_activity_bottom_text_view_white">
+        <item name="android:background">@drawable/selector_list_bg</item>
+        <item name="android:textColor">@drawable/selector_unknown_text</item>
+    </style>
+
+    <style name="popup_setting_text_color_white">
+        <item name="android:textColor">@drawable/b_selector_list_text_app_name</item>
+    </style>
+
+    <style name="contract_img_01_white">
+        <item name="android:background">@drawable/contract_img01</item>
+    </style>
+
+    <style name="contract_text_01_white">
+        <item name="android:background">@drawable/contract_text01</item>
+    </style>
+
+    <style name="update_icon_white">
+        <item name="android:src">@drawable/update_icon</item>
+    </style>
+
+</resources>
