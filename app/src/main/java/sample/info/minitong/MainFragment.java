@@ -35,9 +35,9 @@ public class MainFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-//        RelativeLayout layout = (RelativeLayout) inflater.inflate(R.layout.main_fragment, null);
-//        TextView mTextTitle = (TextView) layout.findViewById(R.id.text_title);
-//        mTextTitle.setText(tapTitle + " " + position);
+        //RelativeLayout layout = (RelativeLayout) inflater.inflate(R.layout.main_fragment, null);
+        //TextView mTextTitle = (TextView) layout.findViewById(R.id.text_title);
+        //mTextTitle.setText(tapTitle + " " + position);
 
         View view = inflater.inflate(R.layout.main_fragment, container, false);
 
@@ -50,7 +50,6 @@ public class MainFragment extends Fragment {
         super.onSaveInstanceState(outState);
 
     }
-
 
 
 }

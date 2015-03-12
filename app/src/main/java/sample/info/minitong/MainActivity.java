@@ -13,7 +13,7 @@ import com.astuetz.PagerSlidingTabStrip;
 
 
 public class MainActivity extends FragmentActivity {
-    private static final String[] CONTENT = new String[]{"메세지함", "거래내역" ," 미확인 번호 "};
+    private static final String[] CONTENT = new String[]{"메세지함", "거래내역", " 미확인 번호 "};
     private static final int[] ICONS = new int[]{
             R.drawable.b_tab_icon_1,
             R.drawable.b_tab_icon_2,
@@ -31,7 +31,7 @@ public class MainActivity extends FragmentActivity {
         mPagerTaps = (PagerSlidingTabStrip) this.findViewById(R.id.taps);
         mViewPager = (ViewPager) this.findViewById(R.id.pager);
 
-        PagerAdapter  mPagerAdapter = new PagerAdapter(getSupportFragmentManager());
+        PagerAdapter mPagerAdapter = new PagerAdapter(getSupportFragmentManager());
         mViewPager.setAdapter(mPagerAdapter);
         mPagerTaps.setViewPager(mViewPager);
 
@@ -60,7 +60,7 @@ public class MainActivity extends FragmentActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public class PagerAdapter extends FragmentPagerAdapter  implements PagerSlidingTabStrip.IconTabProvider{
+    public class PagerAdapter extends FragmentPagerAdapter implements PagerSlidingTabStrip.IconTabProvider {
 
 
         public PagerAdapter(FragmentManager fm) {
@@ -68,8 +68,24 @@ public class MainActivity extends FragmentActivity {
         }
 
         @Override
-        public Fragment getItem(int arg0) {
-            return MainFragment.create(CONTENT[arg0], arg0);
+        public Fragment getItem(int position) {
+            //return MainFragment.create(CONTENT[arg0], arg0);
+            Fragment f;
+            switch (position) {
+                case 0:
+                    f = MiniMsgFragment.newInstance("");
+                    break;
+                case 1:
+                    f = MiniDealFrgment.newInstance("");
+                    break;
+                case 2:
+                    f = MiniUnkownFragment.newInstance("");
+                    break;
+                default:
+                    throw new IllegalArgumentException("not this many fragments: " + position);
+            }
+            return f;
+
         }
 
         @Override
